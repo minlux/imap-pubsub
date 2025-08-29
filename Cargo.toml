@@ -1,0 +1,11 @@
+[package]
+name = "imap-pubsub"
+author = "Manuel Heiß"
+description = "IMAP client used as subscriber in pub/sub messaging via e-mail"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+imap = "2.4.1"
+native-tls = "0.2.14"
+thread = "0.0.1"
